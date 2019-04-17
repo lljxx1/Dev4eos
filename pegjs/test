@@ -1,0 +1,18 @@
+
+
+class account extends db {
+    account type;
+    int64 index_type;
+    key_names account, name;
+    key_types name;
+}
+
+class account {
+    string name;
+    unit64 balance;
+}
+
+
+interface test {
+    void test(name key, a me);
+}
